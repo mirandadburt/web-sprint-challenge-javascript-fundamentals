@@ -124,34 +124,20 @@ console.log('test', lowPopulationAnimals(zooAnimals))
 function add(a, b){
   return a+b
 }
-  // function kitchen(ing1, ing2, chef){
-  //   return chef(ing1, ing2);
-  // }
-  
-  // function pizzaChef(ing1, ing2){
-  //   return `I took ${ing1} and ${ing2} and I made you pizza 🍕`;
-  // }
-  
-  // function pastaChef(ing1, ing2){
-  //   return `I took ${ing1} and ${ing2} and I made you spaghetti 🍝`;
-  // }
-  
-  // console.log(kitchen(dough, sauce, pizzaChef));
-  // console.log(kitchen(dough, sauce, pastaChef));
-console.log(consume(4,5,add))
+// console.log(consume(4,5,add))
 
 // 🦁🦁🦁 Use multiply to return the product of two numbers 🦁🦁🦁
   
-function multiply(/*Your Code Here */){
-   /*Your Code Here */
+function multiply(a,b){
+   return a*b
   }
-
+console.log(consume(4,5,multiply))
  // 🦁🦁🦁 Use greeting to accept a first and last name and return "Hello {first-name} {last-name}, nice to meet you!" 🦁🦁🦁
   
-function greeting(first,last){
-   return `Hello ${first} ${last}, nice to meet you!`
+function greeting(a,b){
+   return `Hello ${a} ${b}, nice to meet you!`
   }
-  
+console.log(consume("miranda","burt",greeting))
   // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
   // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
   // console.log(consume(2, 2, add)); // 4
