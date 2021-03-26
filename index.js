@@ -15,7 +15,7 @@ function myFunction() {
 }
 myFunction();
 
-//🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
+//🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: It is scope that allows for this. nestedFunction, is inside of a parent function, which encompasses both the nested function, and the variable. While nested function can reach outside of its function to the variable internal, the variable internal cannot reach into the nested function. 
 
 
 
@@ -28,9 +28,8 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
-
+function summation(num) {
+  num.reduce(num++)
   }
  
 
